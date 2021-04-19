@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Her kan du kontakte dit Grønne Drømme team. Kontakt os med spørgsmål, eller hvis du gerne vil tilføje en plante til databasen.">
+    <link rel="stylesheet" href="css/Style.css">
+    <title>Kontakt Grønne Drømme</title>
+</head>
+<body>
+    <header><a href="index.html"></a></header>
+
+    <nav>
+        <div class="container1">
+            <a href="index.html">Forside</a>
+        
+            <a href="Plants/aert.html">Ært, Pisum Sativum 'Alderman'</a>
+
+            <a href="Plants/basilikum.html">Basilikum, Ocimum Basilicum</a>
+
+            <a href="plants/Bonne.html">Bønne, Blue Lake</a>
+        </div>
+    </nav>
+    <main>
+        <h1>Kontakt Grønne Drømme</h1>
+
+        <Form action="contactform.php" method="get" class="contactform">
+            <P>
+                <label for="navn">Navn</label>
+                <input type="text" name="navn" placeholder=Skriv...>
+            </P>
+
+            <p>
+                <Label for="E-mail adresse">E-mail</Label>
+                <input type="text" name="E-mail adresse" placeholder=Skriv...>
+            </P>
+
+            <p>
+                <Label for="Message">Skriv en besked</Label>
+                <Textarea name="Message" placeholder="Besked..."></Textarea>
+            </p>
+            
+            <p>
+                <label for="plant name">Plantens danske navn</label>
+                <input type="text" name="plant name" placeholder=Skriv...>
+            </p>      
+
+            <p> 
+                <label for="plant variant">Plantens variant</label>
+                <input type="text" name="plant variant" placeholder=Skriv...>
+            </p>
+
+            <p>
+                <label for="plant botanical name">Plantens Botaniske Navn</label>
+                <input type="text" name="plant botanical name" placeholder=Skriv...>
+            </p>
+
+            <p>
+                <label for="plant type">Plantens type</label>
+                <input type="text" name="plant type" placeholder=Skriv...>
+            </p>
+
+            <p>
+                <label for="plant height">Plantens højde</label>
+                <input type="number" name="plant height">
+            </p>    
+
+            <p>
+                <label for="plant line distance">Plantens rækkeafstand</label>
+                <input type="number" name="plant line distance">
+            </p>
+
+            <p>
+                <label for="plant sådybde">Plantens Sådybde</label>
+                <input type="number" name="plant sådybde">
+            </p>
+
+            <p>
+                <label for="lysforhold">Optimale Lysforhold</label>
+                <select name="lysforhold">
+                    <option value="time1">Fuld Sollys</option>
+                    <option value="time2">Lidt Sollys</option>
+                    <option value="time3">Skygge</option>
+                </select>
+            </p>    
+
+            <p>
+            <label for="forspiring">Planten Forspires i: <br>(Vælg flere med ctrl eller shift)</label>
+                <select name="forspiring" size="12">
+                    <option value="Month1">Januar</option>
+                    <option value="Month2">Feburar</option>
+                    <option value="Month3">Marts</option>
+                    <option value="Month4">April</option>
+                    <option value="Month12">Maj</option>
+                    <option value="Month5">Juni</option>
+                    <option value="Month6">Juli</option>
+                    <option value="Month7">August</option>
+                    <option value="Month8">Septemper</option>
+                    <option value="Month9">Oktober</option>
+                    <option value="Month10">November</option>
+                    <option value="Month11">December</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="udplantes">Planten udplantes i: <br>(Vælg flere med ctrl eller shift)</label>
+                <select name="udplantes" size="12">
+                    <option value="Month13">Januar</option>
+                    <option value="Month14">Feburar</option>
+                    <option value="Month15">Marts</option>
+                    <option value="Month16">April</option>
+                    <option value="Month17">Maj</option>
+                    <option value="Month18">Juni</option>
+                    <option value="Month19">Juli</option>
+                    <option value="Month20">August</option>
+                    <option value="Month21">Septemper</option>
+                    <option value="Month22">Oktober</option>
+                    <option value="Month23">November</option>
+                    <option value="Month24">December</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="interval">Planten spirer efter ca.:</label>
+                <input type="number" name="interval" >
+                <label for="interval">Dage</label>
+            </p>
+            <p>
+                <label for="crops">Planten er klar til høst efter ca.:</label>
+                <input type="number" name="crops" >
+                <label for="interval">Dage</label>
+            </p>
+            <p>
+                <Label for="description">Beskrivelse</Label>
+                <Textarea name="description" placeholder="Beskrivelse..."></Textarea>
+            </p>
+                <input type="submit" name="submit" formaction="FormLanding.html">
+            
+        </Form>
+    </main>
+    
+</body>
+</html>

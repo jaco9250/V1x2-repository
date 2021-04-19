@@ -1,0 +1,89 @@
+.Container{
+    display: flex;
+    flex-direction: row;
+    background-color: #cccc;
+    padding-top: 4rem;
+    justify-content: flex-start;
+
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc
+}
+
+.Child1 {
+    background-color: #c85151;
+    width: 100px; 
+    padding: 10px; 
+    color: #fff; 
+    box-sizing: border-box; 
+    font-size: 42px
+  }
+
+  .Child2 {
+    background-color: green;
+    width: 100px; 
+    padding: 10px; 
+    color: #fff; 
+    box-sizing: border-box; 
+    font-size: 42px
+  }
+
+  .Child3 {
+    background-color: blue;
+    width: 100px; 
+    padding: 10px; 
+    color: #fff; 
+    box-sizing: border-box; 
+    font-size: 42px
+  }
+
+  .Child4 {
+    background-color: orange;
+    width: 100px; 
+    padding: 10px; 
+    color: #fff; 
+    box-sizing: border-box; 
+    font-size: 42px
+  }
+
+  .secondcontainer{
+    display: flex;
+    flex-direction: column;
+    background-color: #cccc;
+    padding-top: 4rem;
+    justify-content: space-between;
+
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .Child5 {
+    background-color: #c85151;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .thirdcontainer
+  {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #cccc;
+    padding-top: 4rem;
+    justify-content: flex-start;
+
+    max-width: 600px;
+    margin: 0 auto;
+    
+  }
+
+  .fourthcontainer{
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #cccc;
+    padding-top: 4rem;
+    justify-content: flex-start;
+
+    max-width: 600px;
+    margin: 0 auto;
+  }

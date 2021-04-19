@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+}
+
+
+
+Body{
+color: #F4F3F5;
+background-color: #665329;
+}
+
+main{
+    width: 1000px;  
+    margin: 5rem auto;
+    
+}
+
+header{
+    height: 3rem;
+    width: 100%;
+    background-image: url("../img/Forside-hoejbed1.jpg");
+    position: fixed;
+    top: 0;
+}
+
+header a{
+    height: 100%;
+    /* width: 100%; */
+    display: block;
+}
+
+nav{
+    background-color: #B1C7B6;
+    top: 3rem;
+    
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    
+}
+
+
+
+footer{
+    background-color: #B1C7B6;
+    color: #3D3B2C;
+    text-align: center;
+    bottom: 0;
+    height: 2rem;
+    
+}
+
+h1, h2 {
+    padding-top: 2rem;
+    color: #F4F3F5;
+}
+
+.Notice{
+    font-size: 1.7rem;
+    background-color: #B1C7B6;
+    border-radius: 20px;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    text-align: center;
+    color: #3D3B2C;
+
+}
+
+a{
+    text-decoration: none;
+    color:mediumseagreen;
+}
+
+
+nav a {
+    color: #3D3B2C;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    margin: 0 auto;
+}
+
+nav ul ul{
+    flex-direction: column;
+    position: absolute;
+    z-index: 7;
+    
+    visibility: hidden;
+    background-color:rgb(244,243,245, 0.8);
+    border-radius: 20px;
+    padding-right: *5rem;
+    padding-bottom: 1rem;
+    padding-left: 0;
+}
+
+nav ul li ul li{
+    margin-top: 1em;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    text-align: left;
+    /* margin-bottom: 1em; */
+    margin-right: 1em;
+
+    border-radius: 20px 20px 20px 60px;
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+}
+
+nav ul li:hover{
+    background-color:rgba(7, 6, 6, 0.657);  
+    color: #B1C7B6;
+}
+
+nav ul li:hover a {
+    color: #B1C7B6;
+    
+}
+
+
+/* nedenstående virker ikke */
+nav ul li a {
+    color: rgba(7, 6, 6, 0.657);
+    
+}
+
+img{
+    border-radius: 50px 10px;
+    max-width: 100%;
+    opacity: 1.0;
+}
+p a{
+    color: #B1C7B6;
+}
+
+p a:visited{
+    color: gray;
+}
+
+input, textarea, select{
+    background-color: lightgrey;
+}
+
+input:focus, textarea:focus, select:focus{
+    background-color: #F4F3F5;
+}
+
+label{
+    width: 25rem;
+    padding-top: 1rem;
+}
+
+nav a:active{
+    color:forestgreen
+}
+
+footer h2{
+    padding: 0;
+}
+
+/* classes */
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: pink;
+  }
+
+ .startup{
+     padding-top: 2rem;
+ }
+
+ /* flexbox */
+
+ .container1{
+    
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    margin: 0 auto;
+}
+
+.databaseli{
+    font-size: 2rem;
+}
+
+.contactform p{
+    display: flex;
+}
+
+/* Experimental */
+
+a img:hover{
+    opacity: 0.3;
+}
+
+.Spacing{
+    margin: 3rem;
+}
+

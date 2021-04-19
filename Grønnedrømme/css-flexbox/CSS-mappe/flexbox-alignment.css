@@ -1,0 +1,229 @@
+.container1{
+    display: flex;
+    flex-direction: row;
+    background-color: #cccc;
+    justify-content: flex-start;
+
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    background-color: #cccc;
+    justify-content: flex-end;
+
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    background-color: #cccc;
+    justify-content: center;
+
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    background-color: #cccc;
+    justify-content: space-between;
+
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc
+}
+
+.container5{
+    display: flex;
+    flex-direction: row;
+    background-color: #cccc;
+    justify-content: space-around;
+
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc
+}
+
+.container6{
+    display: flex;
+    flex-direction: row;
+    background-color: #cccc;
+    justify-content: space-around;
+    height: 10rem;
+    align-items: flex-start;
+
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc
+}
+
+.container7{
+    display: flex;
+    flex-direction: row;
+    background-color: #cccc;
+    /* justify-content: flex-start; */
+    align-items: flex-end;
+    height: 5rem;
+
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc
+}
+
+.container8{
+    display: flex;
+    flex-direction: row;
+    background-color: #cccc;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 5rem;
+
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc
+}
+
+.container9{
+    display: flex;
+    flex-direction: row;
+    background-color: #cccc;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 7rem;
+
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc
+}
+
+.container10{
+    display: flex;
+    flex-direction: row;
+    background-color: #cccc;
+    justify-content: flex-start;
+    height: 7rem;
+
+
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc
+}
+
+.container10 div{
+    height: 75px;
+}
+
+.container11{
+    display: flex;
+    flex-direction: row;
+    background-color: #cccc;
+    justify-content: flex-start;
+
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc
+}
+
+.container12{
+    display: flex;
+    flex-direction: row;
+    background-color: #cccc;
+    justify-content: flex-start;
+
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ccc
+}
+
+.Child1 {
+    background-color: #c85151;
+    width: 100px; 
+    padding: 10px; 
+    color: #fff; 
+    box-sizing: border-box; 
+    font-size: 42px
+  }
+
+  .Child2 {
+    background-color: green;
+    width: 100px; 
+    padding: 10px; 
+    color: #fff; 
+    box-sizing: border-box; 
+    font-size: 42px
+  }
+
+  .Child3 {
+    background-color: blue;
+    width: 100px; 
+    padding: 10px; 
+    color: #fff; 
+    box-sizing: border-box; 
+    font-size: 42px
+  }
+
+  .Child4 {
+    background-color: orange;
+    width: 100px; 
+    padding: 10px; 
+    color: #fff; 
+    box-sizing: border-box; 
+    font-size: 42px
+  }
+
+/* experimental */
+  .Child5 {
+    background-color: #c85151;
+    width: 33%; 
+    padding: 10px; 
+    color: #fff; 
+    box-sizing: border-box; 
+    font-size: 42px
+  }
+
+  .Child6 {
+    background-color: green;
+    width: 33%; 
+    padding: 10px; 
+    color: #fff; 
+    box-sizing: border-box; 
+    font-size: 42px
+  }
+
+  .Child7 {
+    background-color: blue;
+    width: 33%; 
+    padding: 10px; 
+    color: #fff; 
+    box-sizing: border-box; 
+    font-size: 42px
+  }
+
+  .Child8 {
+    background-color: orange;
+    width: 33%; 
+    padding: 10px; 
+    color: #fff; 
+    box-sizing: border-box; 
+    font-size: 42px
+  }
+
+  .Child9 {
+    background-color: orange;
+    width: 100px; 
+    padding: 10px; 
+    color: #fff; 
+    box-sizing: border-box; 
+    font-size: 42px;
+    align-self: flex-end;
+  }
+  
